@@ -1,0 +1,32 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Nobile:400italic|Lato);
+
+.container {
+  font-size:100%;
+  text-align: center;
+}
+
+h1 {
+    padding: 0.1em 0 0.1em 0.2em;
+    font: 2em 'Lato', sans-serif;
+    color: #424242;
+    background-image: linear-gradient(left bottom, #FF9966 0%, #FF9900 100%);
+    background-image: -o-linear-gradient(left bottom, #FF9966 0%, #FF9900 100%);
+    background-image: -moz-linear-gradient(left bottom, #FF9966 0%, #FF9900 100%);
+    background-image: -webkit-linear-gradient(left bottom, #FF9966 0%, #FF9900 100%);
+    background-image: -ms-linear-gradient(left bottom, #FF9966 0%, #FF9900 100%);
+    background-image: -webkit-gradient(linear,left bottom,right top,color-stop(0, #FF9966),color-stop(1, #FF9900));
+}
+
+h2:before {
+    content: '· ';
+}
+
+h2 {
+    padding: 1em;
+    font: 4em 'Nobile', sans-serif;
+}
+
+h2:after {
+    content: ' ·';
+}
