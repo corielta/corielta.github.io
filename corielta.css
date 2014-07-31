@@ -30,3 +30,23 @@ h2 {
 h2:after {
     content: ' ·';
 }
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  background-color: rgb(230, 230, 230);
+  font: 0.9em 'Helvetica', sans-serif;
+  text-align: center;
+  z-index: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #1C1C1C;
+}
+
+.footer a:hover {
+  color: #1C1C1C;
+}
