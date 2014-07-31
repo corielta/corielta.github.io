@@ -36,7 +36,8 @@ h2:after {
   position: absolute;
   bottom: 0;
   padding: 1em;
-  background-color: rgb(230, 230, 230);
+  background-color: #E6E6E6;
+  border-top: 0.1em solid #CCCCCC;
   font: 0.9em 'Helvetica', sans-serif;
   text-align: center;
   z-index: 0;
