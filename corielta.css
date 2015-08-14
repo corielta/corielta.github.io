@@ -8,6 +8,7 @@
 
 h1 {
     padding: 0.1em 0 0.1em 0.2em;
+    width: 100%;
     font: 2em 'Lato', sans-serif;
     color: #424242;
     background-image: linear-gradient(left bottom, #FF9966 0%, #FF9900 100%);
